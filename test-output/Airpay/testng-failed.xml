@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Airpay]">
+  <test thread-count="5" name="TC_PP_Wallet_Navigation_page(failed)">
+    <parameter name="appURL" value="https://directpayments.nowpay.co.in/"/>
+    <parameter name="tcID" value="TC_PP_Wallet_Navigation_page"/>
+    <parameter name="browserType" value="CHROME"/>
+    <classes>
+      <class name="com.Airpay.Tests.TC_PP_Wallet_Navigation_page">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="tearDown"/>
+          <include name="TC_TestCaseName"/>
+        </methods>
+      </class> <!-- com.Airpay.Tests.TC_PP_Wallet_Navigation_page -->
+    </classes>
+  </test> <!-- TC_PP_Wallet_Navigation_page(failed) -->
+</suite> <!-- Failed suite [Airpay] -->

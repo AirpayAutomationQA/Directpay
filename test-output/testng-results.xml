@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Main Test Suite" duration-ms="351521" started-at="2019-08-27T11:28:42Z" finished-at="2019-08-27T11:34:34Z">
+    <groups>
+    </groups>
+    <test name="TestNG Test Group1" duration-ms="351521" started-at="2019-08-27T11:28:42Z" finished-at="2019-08-27T11:34:34Z">
+      <class name="com.Airpay.Utilities.Create_TestNGXML">
+        <test-method status="PASS" signature="createXMLfile()[pri:0, instance:com.Airpay.Utilities.Create_TestNGXML@3aeaafa6]" name="createXMLfile" duration-ms="351406" started-at="2019-08-27T11:28:42Z" finished-at="2019-08-27T11:34:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createXMLfile -->
+      </class> <!-- com.Airpay.Utilities.Create_TestNGXML -->
+    </test> <!-- TestNG Test Group1 -->
+  </suite> <!-- Main Test Suite -->
+</testng-results>
